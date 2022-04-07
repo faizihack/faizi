@@ -636,7 +636,16 @@ except ValueError:
 	exit()
 urls="https://business.facebook.com/business_locations"
 _ses=requests.Session()
-logo = """ __  __        _       _     _     _ \n |  \/  |_   _ (_) __ _| |__ (_) __| |\n | |\/| | | | || |/ _` | '_ \| |/ _` |\n | |  | | |_| || | (_| | | | | | (_| |\n |_|  |_|\__,_|/ |\__,_|_| |_|_|\__,_|\n             |__/                     """
+logo = """
+  ______    _     _ 
+ |  ____|  (_)   (_)
+ | |__ __ _ _ _____ 
+ |  __/ _` | |_  / |
+ | | | (_| | |/ /| |
+ |_|  \__,_|_/___|_|
+                    
+                    
+"""
 
 def convert(cok):
 	__for=(
