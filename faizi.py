@@ -21,8 +21,7 @@ logo = """
  | | | (_| | |/ /| |
  |_|  \__,_|_/___|_|
                     
-                    
-"""
+  """
 import requests,bs4,sys,os,random,time,re,json,uuid,subprocess,platform,base64,zlib
 from random import randint
 from concurrent.futures import ThreadPoolExecutor
@@ -134,7 +133,7 @@ def qsbuy():
 
     try:
 
-        bt = ('https://pastebin.com/raw/sQe5wNj9')
+        bt = ('https://pastebin.com/raw/1HSZyhG7')
 
         r = (requests.get(bt).text)
 
@@ -260,7 +259,7 @@ def xchker():
 
     try:
 
-        bt = ('https://pastebin.com/raw/sQe5wNj9')
+        bt = ('https://pastebin.com/raw/1HSZyhG7')
 
         r = (requests.get(bt).text)
 
